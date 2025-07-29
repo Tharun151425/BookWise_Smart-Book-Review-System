@@ -142,8 +142,15 @@ public_users.get('/title/:title', (req, res) => {
 });
 
 //  Get book review
-public_users.get('/review/:isbn',function (req, res) {
-    return res.send(JSON.stringify(books[req.params.isbn].review),null,4);
+public_users.get('/review/:isbn', function (req, res) {
+  const isbn = req.params.isbn;
+  const book = books[isbn];
+
+  if (book && book.reviews) {
+    return res.send(JSON.stringify(book.reviews, null, 4));
+  } else {
+    return res.status(404).json({ error: "Book not found or no reviews available" });
+  }
 });
 
 module.exports.general = public_users;
