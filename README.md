@@ -27,14 +27,14 @@
 ### 9. Delete Book Review
 ![Delete Book Review](./Src/9-deletereview.jpg)
 
-### 10. Task 10 Output
-![Task 10](./Src/task10.jpg)
+### 10. Get All Books (using Promises)
+![Get All Books (using Promises)](./Src/task10.jpg)
 
-### 11. Task 11 Output
-![Task 11](./Src/task11.jpg)
+### 11. Get Book Details by ISBN (using Promises)
+![Get Book Details by ISBN (using Promises)](./Src/task11.jpg)
 
-### 12. Task 12 Output
-![Task 12](./Src/task12.jpg)
+### 12. Get Books by Author (using Promises)
+![Get Books by Author (using Promises)](./Src/task12.jpg)
 
-### 13. Task 13 Output
-![Task 13](./Src/task13.jpg)
+### 13. Get Books by Title (using Promises)
+![Get Books by Title (using Promises)](./Src/task13.jpg)
